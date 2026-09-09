@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me - Farel Yasir Hafidh</title>
+</head>
+
+<body>
+
+    <h1>Contact Me</h1>
+
+    <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="project.html">Project</a> |
+        <a href="contact.html">Contact</a>
+    </p>
+    <hr>
+
+    <h2>Hubungi Saya</h2>
+    <p>Jika Anda memiliki pertanyaan, tawaran kolaborasi, atau ingin berdiskusi lebih lanjut, silakan isi formulir di
+        bawah ini atau kontak saya langsung.</p>
+
+    <h3>Informasi Kontak</h3>
+    <ul>
+        <li><b>Email:</b> yasirhafidhfarel@gmail.com</li>
+        <li><b>Lokasi:</b> Universitas Pendidikan Indonesia</li>
+    </ul>
+
+    <br>
+
+    <h2>Kirim Pesan</h2>
+    <form action="#" method="post">
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th colspan="2">Formulir Pesan</th>
+            </tr>
+            <tr>
+                <td><label for="nama">Nama Lengkap:</label></td>
+                <td><input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Masukkan email Anda" required></td>
+            </tr>
+            <tr>
+                <td><label>Jenis Kelamin:</label></td>
+                <td>
+                    <input type="radio" id="jk_l" name="jk" value="Laki-laki">
+                    <label for="jk_l">Laki-laki</label>
+                    <input type="radio" id="jk_p" name="jk" value="Perempuan">
+                    <label for="jk_p">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tanggal">Tanggal Tanggapan:</label></td>
+                <td><input type="date" id="tanggal" name="tanggal"></td>
+            </tr>
+            <tr>
+                <td><label for="subjek">Subjek:</label></td>
+                <td><input type="text" id="subjek" name="subjek" placeholder="Subjek pesan"></td>
+            </tr>
+            <tr>
+                <td><label for="pesan">Pesan:</label></td>
+                <td><textarea id="pesan" name="pesan" rows="5" cols="35" placeholder="Tuliskan pesan Anda di sini..."
+                        required></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Opsi Tambahan:</label></td>
+                <td>
+                    <input type="checkbox" id="salinan" name="salinan" value="Ya">
+                    <label for="salinan">Kirimkan salinan pesan ke email saya</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Kirim Pesan">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr>
+    <p>&copy; 2026 Farel Yasir Hafidh. Dibuat menggunakan HTML.</p>
+
+</body>
+
+</html>
